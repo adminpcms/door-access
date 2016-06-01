@@ -1,0 +1,14 @@
+#fleshing out an idea for a python-mysql member database manager
+
+import time
+
+def new_member(firstname,lastname,member_type,datestarted,active):
+    newmember = firstname, lastname, member_type, datestarted, active, time.asctime(),
+    return newmember
+
+
+def deactivate(member):
+    member[5] = "inactive"
+
+def activate(*member):
+    member[5] = "active"
