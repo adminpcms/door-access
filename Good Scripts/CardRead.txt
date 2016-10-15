@@ -1,0 +1,25 @@
+Fri Oct 14 19:04:24 2016 open 23  f0  1b  bc
+Fri Oct 14 19:06:40 2016 open 23  f0  1b  bc
+Fri Oct 14 19:07:12 2016 unregistered card 3d  bf  dd  9a
+Fri Oct 14 19:07:22 2016 unregistered card e3  e3  1f  bc
+Fri Oct 14 19:07:33 2016 unregistered card 13  1e  18  bc
+Fri Oct 14 19:10:22 2016 open 23  f0  1b  bc
+Fri Oct 14 19:10:27 2016 open 23  f0  1b  bc
+Fri Oct 14 19:10:32 2016 open 23  f0  1b  bc
+Fri Oct 14 19:10:37 2016 open 23  f0  1b  bc
+Fri Oct 14 19:14:31 2016 open 23  f0  1b  bc
+Fri Oct 14 19:15:09 2016 open 23  f0  1b  bc
+Fri Oct 14 19:16:18 2016 unregistered card 3d  bf  dd  9a
+Fri Oct 14 19:19:24 2016 open 23  f0  1b  bc
+Fri Oct 14 19:20:40 2016 open 23  f0  1b  bc
+Fri Oct 14 19:20:48 2016 open 23  f0  1b  bc
+Fri Oct 14 19:20:56 2016 open 23  f0  1b  bc
+Fri Oct 14 19:21:02 2016 open 23  f0  1b  bc
+Fri Oct 14 19:21:16 2016 open 23  f0  1b  bc
+Fri Oct 14 19:21:35 2016 unregistered card 3d  bf  dd  9a
+Fri Oct 14 19:21:40 2016 unregistered card 3d  bf  dd  9a
+Fri Oct 14 19:21:43 2016 open 23  f0  1b  bc
+Fri Oct 14 19:28:54 2016 unregistered card 3d  bf  dd  9a
+Fri Oct 14 19:29:04 2016 open 23  f0  1b  bc
+Fri Oct 14 19:39:04 2016 unregistered card 3d  bf  dd  9a
+Fri Oct 14 19:39:13 2016 open 23  f0  1b  bc
