@@ -46,10 +46,10 @@ def activate_striker(dur_in_secs):
 	t.sleep(dur_in_secs)
 	GPIO.output(18,GPIO.LOW)
 
-def log_card(card_ID, comment):
+def log_card(comment,cardinfo): #Card info either contains the member's name, or the hex code if unknown
 	time_text = t.asctime(t.localtime(t.time()))
 	log_file = open("CardRead.txt", 'a')
-	log_file.write(time_text + ' ' + comment + ' ' + card_ID + '\n')
+	log_file.write(time_text + ' ' + comment + ' ' + cardinfo '\n')
 	log_file.close()
 
 #Initialize the GPIO and set pin 18 LOW
@@ -75,14 +75,14 @@ while True:
                         continue
                 print "Found the card with the ID: " + cardID
                 log_file.close()
-                file_ptr = open("MemberCards.txt",'r')	# File format: cardID,MemberName
-                unlock = valid_card_check(file_ptr, cardID)	# Check to see if this card is a member's card
+                file_ptr = open("MemberCards.txt",'r')	   # File format: cardID,MemberName
+                unlock = valid_card_check(file_ptr, cardID)# Check to see if this card is a member's card
                 file_ptr.close()
                 if unlock[0]:
-                        log_card(cardID,"open")
+                        log_card("open",unlock[1]) #Contains the member name
                         activate_striker(5)
                 else:
-                        log_card(cardID,"unregistered card")
+                        log_card("unregistered card",cardID)
                 
                 #GPIO.output(18,GPIO.HIGH)
                 #t.sleep(5)
